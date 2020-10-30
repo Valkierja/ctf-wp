@@ -22,14 +22,17 @@ detect UPX
 ```
 upx -d (要脱壳文件的绝对路径)
 ```
+
 [![BtruW9.md.png](https://s1.ax1x.com/2020/10/30/BtruW9.md.png)](https://imgchr.com/i/BtruW9)
 
 脱壳成功后的文件会把原来的文件覆盖掉,注意保存源文件(如有需要)
 
 把文件拖入IDA
+
 [![BtrHkF.md.png](https://s1.ax1x.com/2020/10/30/BtrHkF.md.png)](https://imgchr.com/i/BtrHkF)
 
 变量名flag点进去发现明文flag
+
 [![BtsCkD.md.png](https://s1.ax1x.com/2020/10/30/BtsCkD.md.png)](https://imgchr.com/i/BtsCkD)
 
 完
