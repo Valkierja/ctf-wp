@@ -16,10 +16,18 @@ detect UPX
 
 前往(upx官网)[ http://upx.github.io ],下载upx脱壳组件
 
-下载完成后将upx.exe的绝对路径(即,D:/.../.../upx.exe,C:/.../.../upx.exe  诸如此类)添加至环境变量(目的是可以在任意目录下使用cmd中的upx命令)
-![](https://s1.ax1x.com/2020/10/30/Btr9Rs.png)
+下载完成后将upx.exe的绝对路径(即,D:/.../.../  诸如此类)添加至环境变量(目的是可以在任意目录下使用cmd中的upx命令)
+
 在cmd中输入
 ```
 upx -d (要脱壳文件的绝对路径)
 ```
 [![BtruW9.md.png](https://s1.ax1x.com/2020/10/30/BtruW9.md.png)](https://imgchr.com/i/BtruW9)
+脱壳成功后的文件会把原来的文件覆盖掉,注意保存源文件(如有需要)
+
+把文件拖入IDA
+[![BtrHkF.md.png](https://s1.ax1x.com/2020/10/30/BtrHkF.md.png)](https://imgchr.com/i/BtrHkF)
+变量名flag点进去发现明文flag
+[![BtsCkD.md.png](https://s1.ax1x.com/2020/10/30/BtsCkD.md.png)](https://imgchr.com/i/BtsCkD)
+完
+
